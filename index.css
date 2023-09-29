@@ -1,0 +1,114 @@
+.home-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.home-container1 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  border-color: #bd0707;
+  border-style: dashed;
+  border-width: 2px;
+  justify-content: center;
+  background-color: #bd0707;
+}
+.home-text {
+  top: 12px;
+  left: 25px;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  font-size: 60px;
+  align-self: center;
+  box-shadow: rgb(0, 0, 0) 5px 5px 10px 0px;
+  font-style: normal;
+  font-family: Merriweather;
+  font-weight: 700;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-radius8);
+  text-transform: capitalize;
+}
+.home-button {
+  top: 118px;
+  left: 16px;
+  color: rgb(255, 255, 255);
+  width: 266px;
+  height: 58px;
+  position: absolute;
+  font-family: Merriweather;
+  background-color: rgb(0, 0, 0);
+}
+.home-button1 {
+  top: 258px;
+  left: 17px;
+  color: rgb(255, 255, 255);
+  width: 266px;
+  height: 58px;
+  position: absolute;
+  font-family: Merriweather;
+  background-color: rgb(0, 0, 0);
+}
+.home-button2 {
+  top: 326px;
+  left: 16px;
+  color: rgb(255, 255, 255);
+  width: 266px;
+  height: 58px;
+  position: absolute;
+  font-family: Merriweather;
+  background-color: rgb(0, 0, 0);
+}
+.home-button3 {
+  top: 394px;
+  left: 16px;
+  color: rgb(255, 255, 255);
+  width: 266px;
+  height: 58px;
+  position: absolute;
+  font-family: Merriweather;
+  background-color: rgb(0, 0, 0);
+}
+.home-button4 {
+  top: 465px;
+  left: 14px;
+  color: rgb(255, 255, 255);
+  width: 266px;
+  height: 58px;
+  position: absolute;
+  font-family: Merriweather;
+  background-color: rgb(0, 0, 0);
+}
+.home-button5 {
+  top: 190px;
+  left: 16px;
+  color: rgb(255, 255, 255);
+  width: 266px;
+  height: 58px;
+  position: absolute;
+  font-family: Merriweather;
+  background-color: rgb(0, 0, 0);
+}
+.home-text1 {
+  top: 7px;
+  left: 15px;
+  position: absolute;
+}
+.home-text3 {
+  line-height: 0.5;
+}
+.home-image {
+  top: 133px;
+  left: 333px;
+  width: 283px;
+  height: 372px;
+  position: absolute;
+  align-self: center;
+  object-fit: cover;
+}
